@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PAN Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+        }
+
+        .card {
+            width: 370px;
+            padding: 15px;
+            background: #ffffff;
+            border: 2px solid #1a237e;
+            margin: 50px auto;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            border-radius: 6px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #1a237e;
+            margin: 5px 0 15px;
+            letter-spacing: 1px;
+        }
+
+        .photo {
+            width: 80px;
+            height: 100px;
+            border: 1px solid #000;
+            float: right;
+            text-align: center;
+            line-height: 100px;
+            font-size: 12px;
+            background: #e8eaf6;
+            margin-left: 10px;
+        }
+
+        p {
+            margin: 6px 0;
+            font-size: 14px;
+        }
+
+        b {
+            display: inline-block;
+            width: 130px;
+        }
+
+        .pan-number {
+            font-size: 16px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            margin: 10px 0;
+        }
+
+        .footer {
+            margin-top: 10px;
+            font-size: 11px;
+            text-align: center;
+            color: #555;
+            border-top: 1px solid #ccc;
+            padding-top: 6px;
+        }
+
+        .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card clearfix">
+    <h2>PAN CARD</h2>
+
+    <div class="photo">Photo</div>
+
+    <p><b>Name:</b> Paulo Maldini</p>
+    <p><b>Father's Name:</b> Maldini</p>
+    <p><b>Date of Birth:</b> 01-01-1998</p>
+
+    <p class="pan-number">ABCDE1234F</p>
+
+    <div class="footer">
+        Income Tax Department • Government of India
+    </div>
+</div>
+
+</body>
+</html>
+
